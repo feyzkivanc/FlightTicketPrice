@@ -42,7 +42,7 @@ public class Main {
             System.out.println("toplam:" +toplam);
         }
         if(tip==2){
-            System.out.println("%20 indirimli: " +(toplam-(toplam*20)/100));
+            System.out.println("%20 indirimli: " +(toplam-((toplam*20)/100))*2);
         }
         else{
             System.out.println("toplam" + toplam);
